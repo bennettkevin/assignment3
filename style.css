@@ -1,0 +1,72 @@
+body {
+    font-family: Calibri, serif;
+    background-image: linear-gradient(#ffb71b, #0f2044, #bec0c2);
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#intro{
+    display: flex;
+    text-align: center;
+}
+
+aside {
+    order: -1;
+    width: 500px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.storefront {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurant-info {
+    border-bottom: 2px solid black;
+}
+
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 10px outset black;
+    background-image: linear-gradient( #0f2044, #ffb71b);
+    color: white;
+}
+
+.signature-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dish {
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dotted black;
+}
+
+
+.dish img {
+    width: 250px;
+    max-height: 300px;
+}
+
