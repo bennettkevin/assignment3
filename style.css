@@ -70,3 +70,8 @@ main {
     max-height: 300px;
 }
 
+.favorite {
+    border: 5px solid red;
+    background-color: lightblue;
+}
+
